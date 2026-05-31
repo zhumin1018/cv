@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="张三的个人简历网站，包含关于我、实习经历与作品集。"
+    />
+    <title>张三 | 个人简历</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@500;700&family=Nunito+Sans:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header" aria-label="主导航">
+      <a class="brand" href="#top" aria-label="回到首页">
+        <span class="brand-mark">ZS</span>
+        <span>张三</span>
+      </a>
+      <nav class="nav-links">
+        <a href="#about">关于我</a>
+        <a href="#experience">实习经历</a>
+        <a href="#portfolio">作品集</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero section-band" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">Resume · Portfolio · Growth</p>
+          <h1 id="hero-title">你好，我是<span>张三</span>。</h1>
+          <p class="hero-lede">
+            一名正在成长中的产品与前端方向学习者，喜欢把复杂信息整理成清晰、温和、好用的体验。
+          </p>
+          <div class="hero-actions" aria-label="快捷入口">
+            <a class="button primary" href="#portfolio">查看作品</a>
+            <a class="button secondary" href="mailto:zhangsan@example.com">联系我</a>
+          </div>
+        </div>
+        <aside class="profile-panel" aria-label="个人联系信息">
+          <div class="portrait" aria-hidden="true">张</div>
+          <dl class="contact-list">
+            <div>
+              <dt>电话</dt>
+              <dd>1111111</dd>
+            </div>
+            <div>
+              <dt>邮箱</dt>
+              <dd>zhangsan@example.com</dd>
+            </div>
+            <div>
+              <dt>城市</dt>
+              <dd>上海</dd>
+            </div>
+          </dl>
+        </aside>
+      </section>
+
+      <section id="about" class="section content-grid" aria-labelledby="about-title">
+        <div>
+          <p class="section-kicker">About</p>
+          <h2 id="about-title">关于我</h2>
+        </div>
+        <div class="section-copy">
+          <p>
+            我关注用户体验、信息表达与轻量化前端实现。平时会练习网页设计、数据可视化和交互原型，也在持续补充作品集。
+          </p>
+          <ul class="pill-list" aria-label="技能标签">
+            <li>HTML / CSS</li>
+            <li>JavaScript</li>
+            <li>Figma</li>
+            <li>产品思维</li>
+            <li>用户研究</li>
+          </ul>
+        </div>
+      </section>
+
+      <section
+        id="experience"
+        class="section section-soft"
+        aria-labelledby="experience-title"
+      >
+        <div class="section-heading">
+          <p class="section-kicker">Experience</p>
+          <h2 id="experience-title">实习经历</h2>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item">
+            <div class="timeline-date">2025.06 - 2025.09</div>
+            <div class="timeline-card">
+              <h3>某某科技有限公司 · 产品实习生</h3>
+              <p>
+                参与用户反馈整理、竞品分析与原型优化，协助团队把零散需求转化为可执行的页面方案。
+              </p>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <div class="timeline-date">2024.12 - 2025.03</div>
+            <div class="timeline-card">
+              <h3>某某传媒工作室 · 新媒体运营实习生</h3>
+              <p>
+                负责选题资料收集、内容排版与数据复盘，提升账号内容的阅读完成率与视觉一致性。
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="portfolio" class="section" aria-labelledby="portfolio-title">
+        <div class="section-heading portfolio-heading">
+          <div>
+            <p class="section-kicker">Portfolio</p>
+            <h2 id="portfolio-title">作品集</h2>
+          </div>
+          <p>
+            这里先放三个示例卡片。后续你可以直接复制一个
+            <code>&lt;article class="work-card"&gt;</code> 来新增作品。
+          </p>
+        </div>
+        <div class="work-grid">
+          <article class="work-card">
+            <span class="work-number">01</span>
+            <h3>校园活动报名页</h3>
+            <p>
+              用清爽的表单流程整理活动信息，降低报名步骤中的阅读和填写负担。
+            </p>
+            <a href="#" aria-label="查看校园活动报名页作品">查看详情</a>
+          </article>
+          <article class="work-card">
+            <span class="work-number">02</span>
+            <h3>个人阅读记录板</h3>
+            <p>
+              以卡片和标签组织阅读笔记，让阶段性输入、思考和复盘更容易被追踪。
+            </p>
+            <a href="#" aria-label="查看个人阅读记录板作品">查看详情</a>
+          </article>
+          <article class="work-card">
+            <span class="work-number">03</span>
+            <h3>小型数据看板</h3>
+            <p>
+              将日常数据转化为轻量图表和趋势摘要，强调快速浏览与重点识别。
+            </p>
+            <a href="#" aria-label="查看小型数据看板作品">查看详情</a>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© 2026 张三 · Built for GitHub Pages</p>
+      <a href="#top">回到顶部</a>
+    </footer>
+  </body>
+</html>
