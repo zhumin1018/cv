@@ -5,22 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
-      content="张三的个人简历网站，包含关于我、实习经历与作品集。"
+      content="朱敏的个人简历与作品集网站，展示新闻传播、新媒体运营、内容策划、视觉设计与视频作品。"
     />
-    <title>张三 | 个人简历</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@500;700&family=Nunito+Sans:wght@400;600;700;800&display=swap"
-      rel="stylesheet"
-    />
+    <title>朱敏 | 个人简历与作品集</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header class="site-header" aria-label="主导航">
       <a class="brand" href="#top" aria-label="回到首页">
-        <span class="brand-mark">ZS</span>
-        <span>张三</span>
+        <span class="brand-mark">ZM</span>
+        <span>朱敏</span>
       </a>
       <nav class="nav-links">
         <a href="#about">关于我</a>
@@ -32,30 +26,31 @@
     <main id="top">
       <section class="hero section-band" aria-labelledby="hero-title">
         <div class="hero-copy">
-          <p class="eyebrow">Resume · Portfolio · Growth</p>
-          <h1 id="hero-title">你好，我是<span>张三</span>。</h1>
+          <p class="eyebrow">Journalism · Content · Design</p>
+          <h1 id="hero-title">朱敏</h1>
           <p class="hero-lede">
-            一名正在成长中的产品与前端方向学习者，喜欢把复杂信息整理成清晰、温和、好用的体验。
+            武汉大学新闻与传播硕士在读，暨南大学旅游管理、新闻学双学士。关注内容策划、新媒体运营、视觉表达与 AIGC 创作，6 月 18 日可到岗，可连续实习五个月。
           </p>
           <div class="hero-actions" aria-label="快捷入口">
-            <a class="button primary" href="#portfolio">查看作品</a>
-            <a class="button secondary" href="mailto:zhangsan@example.com">联系我</a>
+            <a class="button primary" href="#portfolio">查看作品集</a>
+            <a class="button secondary" href="mailto:1509704615@qq.com">联系我</a>
           </div>
         </div>
-        <aside class="profile-panel" aria-label="个人联系信息">
-          <div class="portrait" aria-hidden="true">张</div>
+
+        <aside class="profile-card" aria-label="个人信息">
+          <img src="assets/profile.jpg" alt="朱敏个人头像" />
           <dl class="contact-list">
             <div>
-              <dt>电话</dt>
-              <dd>1111111</dd>
+              <dt>学校</dt>
+              <dd>武汉大学</dd>
+            </div>
+            <div>
+              <dt>方向</dt>
+              <dd>新闻传播 / 内容运营</dd>
             </div>
             <div>
               <dt>邮箱</dt>
-              <dd>zhangsan@example.com</dd>
-            </div>
-            <div>
-              <dt>城市</dt>
-              <dd>上海</dd>
+              <dd><a href="mailto:1509704615@qq.com">1509704615@qq.com</a></dd>
             </div>
           </dl>
         </aside>
@@ -68,43 +63,78 @@
         </div>
         <div class="section-copy">
           <p>
-            我关注用户体验、信息表达与轻量化前端实现。平时会练习网页设计、数据可视化和交互原型，也在持续补充作品集。
+            我具备新闻采写、公众号运营、专题策划、数据复盘和视觉设计经验。曾参与湖北日报、南方都市报、realme、TCL 通讯等平台与企业项目，也独立完成过网页应用、海报、版面和 App 原型设计。
           </p>
+          <div class="fact-grid" aria-label="个人亮点">
+            <article>
+              <span>01</span>
+              <strong>内容采写</strong>
+              <p>覆盖体育、健康、教育、社会科学等领域，能够从采访、资料梳理到成稿发布完整推进。</p>
+            </article>
+            <article>
+              <span>02</span>
+              <strong>运营策划</strong>
+              <p>熟悉公众号选题、推文编辑、活动传播、用户画像与数据复盘，重视内容转化与反馈。</p>
+            </article>
+            <article>
+              <span>03</span>
+              <strong>视觉表达</strong>
+              <p>可完成海报、版面、App 原型、短视频剪辑与 AIGC 素材生成，兼顾信息层级和审美统一。</p>
+            </article>
+          </div>
           <ul class="pill-list" aria-label="技能标签">
-            <li>HTML / CSS</li>
-            <li>JavaScript</li>
-            <li>Figma</li>
-            <li>产品思维</li>
-            <li>用户研究</li>
+            <li>公众号运营</li>
+            <li>新闻采写</li>
+            <li>专题策划</li>
+            <li>Excel / SQL</li>
+            <li>Python</li>
+            <li>Photoshop / Illustrator</li>
+            <li>Premiere / 剪映</li>
+            <li>Codex / Trae</li>
+            <li>即梦 / 可灵</li>
           </ul>
         </div>
       </section>
 
-      <section
-        id="experience"
-        class="section section-soft"
-        aria-labelledby="experience-title"
-      >
+      <section id="experience" class="section section-soft" aria-labelledby="experience-title">
         <div class="section-heading">
           <p class="section-kicker">Experience</p>
           <h2 id="experience-title">实习经历</h2>
         </div>
         <div class="timeline">
           <article class="timeline-item">
-            <div class="timeline-date">2025.06 - 2025.09</div>
+            <div class="timeline-date">湖北日报</div>
             <div class="timeline-card">
-              <h3>某某科技有限公司 · 产品实习生</h3>
+              <h3>新媒体运营实习生</h3>
               <p>
-                参与用户反馈整理、竞品分析与原型优化，协助团队把零散需求转化为可执行的页面方案。
+                参与湖北日报相关媒体运营、杂志策划与数据复盘，跟进专题分析和稿件优化，支持内容发布后的效果评估。
               </p>
             </div>
           </article>
           <article class="timeline-item">
-            <div class="timeline-date">2024.12 - 2025.03</div>
+            <div class="timeline-date">realme</div>
             <div class="timeline-card">
-              <h3>某某传媒工作室 · 新媒体运营实习生</h3>
+              <h3>企业文化实习生</h3>
               <p>
-                负责选题资料收集、内容排版与数据复盘，提升账号内容的阅读完成率与视觉一致性。
+                负责内部线上学习与培训平台运营，参与资料整理、封面制作、课程维护和关键岗位培训执行。
+              </p>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <div class="timeline-date">南方都市报</div>
+            <div class="timeline-card">
+              <h3>新媒体编辑实习生</h3>
+              <p>
+                结合热点与受众需求进行选题创意、采访写作和图文编辑，涉及健康、教育等方向，参与多篇公众号稿件产出。
+              </p>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <div class="timeline-date">TCL 通讯</div>
+            <div class="timeline-card">
+              <h3>媒资运营实习生</h3>
+              <p>
+                参与内容引进、专题策划与数据分析，围绕点击量、播放量、购买量等指标建立看板并跟进反馈。
               </p>
             </div>
           </article>
@@ -118,41 +148,116 @@
             <h2 id="portfolio-title">作品集</h2>
           </div>
           <p>
-            这里先放三个示例卡片。后续你可以直接复制一个
-            <code>&lt;article class="work-card"&gt;</code> 来新增作品。
+            作品覆盖个人网页应用、新闻稿件、公众号推文、海报设计、报刊版面、App 原型和视频剪辑。图片按类型分组展示，方便后续继续补充。
           </p>
         </div>
-        <div class="work-grid">
-          <article class="work-card">
-            <span class="work-number">01</span>
-            <h3>校园活动报名页</h3>
+
+        <section class="portfolio-block featured-work" aria-labelledby="design-title">
+          <div class="block-copy">
+            <p class="block-label">Personal Project</p>
+            <h3 id="design-title">柯基日程每日打卡</h3>
             <p>
-              用清爽的表单流程整理活动信息，降低报名步骤中的阅读和填写负担。
+              使用 Codex 搭建的轻量打卡应用，包含任务记录、智能排序、数据统计、响应式适配和免登录本地存储，项目已上线。
             </p>
-            <a href="#" aria-label="查看校园活动报名页作品">查看详情</a>
-          </article>
-          <article class="work-card">
-            <span class="work-number">02</span>
-            <h3>个人阅读记录板</h3>
+            <a class="text-link" href="https://corgi-app.pages.dev/" target="_blank" rel="noreferrer">访问线上项目</a>
+          </div>
+          <div class="image-triptych">
+            <figure>
+              <img src="assets/portfolio/image1.png" alt="柯基日程打卡首页界面" loading="lazy" />
+            </figure>
+            <figure>
+              <img src="assets/portfolio/image2.png" alt="柯基日程数据统计界面" loading="lazy" />
+            </figure>
+            <figure>
+              <img src="assets/portfolio/image3.png" alt="柯基日程任务列表界面" loading="lazy" />
+            </figure>
+          </div>
+        </section>
+
+        <section class="portfolio-block" aria-labelledby="writing-title">
+          <div class="block-copy">
+            <p class="block-label">Writing</p>
+            <h3 id="writing-title">新闻稿件与公众号推送</h3>
             <p>
-              以卡片和标签组织阅读笔记，让阶段性输入、思考和复盘更容易被追踪。
+              曾为湖北日报、南都健闻、南都校探、樱花大道、深圳工程等平台参与稿件采写、编辑与发布。
             </p>
-            <a href="#" aria-label="查看个人阅读记录板作品">查看详情</a>
-          </article>
-          <article class="work-card">
-            <span class="work-number">03</span>
-            <h3>小型数据看板</h3>
+          </div>
+          <div class="writing-grid">
+            <article>
+              <h4>湖北日报稿件</h4>
+              <p>全民健身赛事、光明阅读、体育舞蹈、社会体育指导员公益行、真人图书分享会等。</p>
+            </article>
+            <article>
+              <h4>南都健闻 / 南都校探</h4>
+              <p>健康科普、医美查询工具、博物馆攻略、教育机构回应、校园活动征集等。</p>
+            </article>
+            <article>
+              <h4>校园与企业公众号</h4>
+              <p>心理健康节、民族共同体学习研讨、节日推送、荣誉喜报、主题团日活动等。</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="portfolio-block" aria-labelledby="poster-title">
+          <div class="block-copy">
+            <p class="block-label">Poster Design</p>
+            <h3 id="poster-title">公众号海报设计</h3>
+          </div>
+          <div class="gallery poster-gallery">
+            <figure><img src="assets/portfolio/image5.png" alt="端午节公众号海报" loading="lazy" /></figure>
+            <figure><img src="assets/portfolio/image6.png" alt="建党周年主题海报" loading="lazy" /></figure>
+            <figure><img src="assets/portfolio/image7.png" alt="元旦主题海报" loading="lazy" /></figure>
+            <figure><img src="assets/portfolio/image8.png" alt="劳动者主题海报" loading="lazy" /></figure>
+          </div>
+        </section>
+
+        <section class="portfolio-block" aria-labelledby="layout-title">
+          <div class="block-copy">
+            <p class="block-label">Editorial Layout</p>
+            <h3 id="layout-title">报纸与杂志版面设计</h3>
+          </div>
+          <div class="gallery layout-gallery">
+            <figure><img src="assets/portfolio/image10.jpeg" alt="茶堂周报版面设计" loading="lazy" /></figure>
+            <figure><img src="assets/portfolio/image11.jpeg" alt="旅游杂志版面设计" loading="lazy" /></figure>
+          </div>
+        </section>
+
+        <section class="portfolio-block" aria-labelledby="prototype-title">
+          <div class="block-copy">
+            <p class="block-label">App Prototype</p>
+            <h3 id="prototype-title">App 原型图设计</h3>
+          </div>
+          <div class="phone-grid">
+            <figure><img src="assets/portfolio/image12.png" alt="乡游乡知启动页原型" loading="lazy" /></figure>
+            <figure><img src="assets/portfolio/image13.png" alt="乡游乡知首页原型" loading="lazy" /></figure>
+            <figure><img src="assets/portfolio/image14.png" alt="乡游乡知景点列表原型" loading="lazy" /></figure>
+            <figure><img src="assets/portfolio/image15.png" alt="乡游乡知商品页原型" loading="lazy" /></figure>
+            <figure><img src="assets/portfolio/image16.png" alt="乡游乡知商品详情原型" loading="lazy" /></figure>
+            <figure><img src="assets/portfolio/image17.png" alt="乡游乡知社区页面原型" loading="lazy" /></figure>
+            <figure><img src="assets/portfolio/image18.png" alt="乡游乡知订单页面原型" loading="lazy" /></figure>
+            <figure><img src="assets/portfolio/image19.png" alt="乡游乡知内容列表原型" loading="lazy" /></figure>
+            <figure><img src="assets/portfolio/image20.png" alt="乡游乡知个人中心原型" loading="lazy" /></figure>
+          </div>
+        </section>
+
+        <section class="portfolio-block video-card" aria-labelledby="video-title">
+          <div>
+            <p class="block-label">Video</p>
+            <h3 id="video-title">视频制作作品集</h3>
             <p>
-              将日常数据转化为轻量图表和趋势摘要，强调快速浏览与重点识别。
+              熟练使用 Premiere、剪映等剪辑软件，也能使用即梦、可灵等 AIGC 视频工具完成素材生成与剪辑包装。
             </p>
-            <a href="#" aria-label="查看小型数据看板作品">查看详情</a>
-          </article>
-        </div>
+          </div>
+          <a class="button primary" href="https://pan.baidu.com/s/18PWInsoZGhkWeooBLpVJWQ?pwd=9285" target="_blank" rel="noreferrer">
+            百度网盘查看视频作品
+          </a>
+          <p class="extract-code">提取码：9285</p>
+        </section>
       </section>
     </main>
 
     <footer class="site-footer">
-      <p>© 2026 张三 · Built for GitHub Pages</p>
+      <p>© 2026 朱敏 · Resume & Portfolio</p>
       <a href="#top">回到顶部</a>
     </footer>
   </body>
